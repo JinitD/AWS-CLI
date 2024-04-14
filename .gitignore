@@ -1,0 +1,13 @@
+# Ignorar todos los archivos .js
+*.js
+
+# Ignorar todos los archivos .zip
+*.zip
+
+# Ignorar la carpeta .vscode
+.vscode/
+
+# Ignorar todos los directorios llamados "node_modules"
+**/node_modules/
+
+.git
