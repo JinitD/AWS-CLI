@@ -93,7 +93,14 @@ se debe remplazar los [ ]
 | `--http-method`        | motodos http [ post, get, delete..] |
 | `--authorization-type` | el tipo de autorizacion             |
 | integracion            | -----                               |
-| `--nn`                 | nn                                  |
+| `--rest-api-id`                 |    id de la api creada                             |
+| `--resource-id`                 | id del recurso root de la api                             |
+| `--http-method`                 | metodo http                                 |
+| `--type`                 | tipo de integracion `[AWS , AWS_PROXY, HTTP . . .]`                                 |
+| `--integration-http-method`             | metodo http integracion                                 |
+| `--uri`                 |  conexión entre un método en un API Gateway y la función Lambda específica                              |
+
+aws apigateway put-integration --rest-api-id j90ssydnr6 --resource-id yme94g --http-method GET --type AWS --integration-http-method GET --uri
 
 ### Ejemplo para crear un apiwateway
 
@@ -196,7 +203,7 @@ se debe remplazar los [ ]
 
 ---
 
-> # Listar recursos varios 
+> # Listar recursos varios
 
     aws lambda list-functions --query 'Functions[*].[FunctionName,Runtime,Handler]' --output table`
 
