@@ -35,6 +35,6 @@ MediSe tiene que crear una lambda que guarde en un s3 en una carpeta especifica.
         --handler lambda/index.handler --zip-file fileb://test-lambda-QX.zip
 
 4. Se crea ApigateWay en la consola de AWS y se integra con la lambda
-[falta]
+[falta capt]
 
 ![alt text](img/dog.png)
