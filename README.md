@@ -100,7 +100,6 @@ se debe remplazar los [ ]
 | `--integration-http-method`             | metodo http integracion                                 |
 | `--uri`                 |  conexión entre un método en un API Gateway y la función Lambda específica                              |
 
-aws apigateway put-integration --rest-api-id j90ssydnr6 --resource-id yme94g --http-method GET --type AWS --integration-http-method GET --uri
 
 ### Ejemplo para crear un apiwateway
 
