@@ -1,8 +1,8 @@
 # comandos recurrentes
 
-| zip  | `zip -r jdorado.zip .` | comprime el directorio actual |
+| zip  | `zip -r test-practic.zip .` | comprime el directorio actual |
 | :--- | :--------------------- | :---------------------------- |
-| ts   | `npx tsc`              | copila el proyecto TS         |
+| ts   | `npx tsc --init` `npx tsc` | Crear y copila el proyecto TS         |
 
 ## ![!\[alt text\](image-1.png) ](img/lambda-min.png) Lambda  
 
@@ -99,7 +99,6 @@ se debe remplazar los [ ]
 | `--type`                 | tipo de integracion `[AWS , AWS_PROXY, HTTP . . .]`                                 |
 | `--integration-http-method`             | metodo http integracion                                 |
 | `--uri`                 |  conexión entre un método en un API Gateway y la función Lambda específica                              |
-
 
 ### Ejemplo para crear un apiwateway
 
